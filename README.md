@@ -12,3 +12,6 @@ Pycodestyle is now the new standard of Python style code.
 
 0x01. Python - if/else, loops, functions
 The if-else statement is used to execute both the true part and the false part of a given condition. If the condition is true, the if block code is executed and if the condition is false, the else block code is executed.
+
+0x02. Python - import & modules
+Import in python is similar to #include header_file in C/C++. Python modules can get access to code from another module by importing the file/function using import. The import statement is the most common way of invoking the import machinery, but it is not the only way.
