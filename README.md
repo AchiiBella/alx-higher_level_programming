@@ -15,3 +15,7 @@ The if-else statement is used to execute both the true part and the false part o
 
 0x02. Python - import & modules
 Import in python is similar to #include header_file in C/C++. Python modules can get access to code from another module by importing the file/function using import. The import statement is the most common way of invoking the import machinery, but it is not the only way.
+
+0x03. Python - Data Structures: Lists, Tuples
+The basic Python data structures in Python include list, set, tuples, and dictionary. Each of the data structures is unique in its own way. Data structures are “containers” that organize and group data according to type.
+A tuple is a built-in data structure in Python that is an ordered collection of objects. Unlike lists, tuples come with limited functionality. The primary differing characteristic between lists and tuples is mutability. Lists are mutable, whereas tuples are immutable.
