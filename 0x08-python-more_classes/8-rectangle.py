@@ -53,7 +53,7 @@
     def area(self):
         """Return the area of the Rectangle."""
         return (self.__width * self.__height)
-    
+
     def perimeter(self):
         """Return the perimeter of the Rectangle."""
         if self.__width == 0 or self.__height == 0:
@@ -88,7 +88,7 @@
 
         rect = []
         for i in range(self.__height):
-[rect.append(str(self.print_symbol)) for j in range(self.__width)]
+            [rect.append(str(self.print_symbol)) for j in range(self.__width)]
             if i != self.__height - 1:
                 rect.append("\n")
         return ("".join(rect))
@@ -98,7 +98,6 @@
         rect = "Rectangle(" + str(self.__width)
         rect += ", " + str(self.__height) + ")"
         return (rect)
-
 
     def __del__(self):
         """Print a message for every deletion of a Rectangle."""
